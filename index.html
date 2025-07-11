@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Café Andino</title>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="imagenes/imagen_logo.png" alt="Café Andino" height="50"> Café Andino</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Menú</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Sección de portada -->
+    <section id="inicio" class="text-white text-center d-flex align-items-center">
+      <div class="overlay"></div>
+      <div class="container contenido">
+        <h1 class="display-4">Sabor peruano en cada taza</h1>
+        <p class="lead">Disfruta el mejor café orgánico del Perú en un ambiente único</p>
+      </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section id="nosotros" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Sobre Nosotros</h2>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p>Café Andino nace en el corazón de Lima para celebrar lo mejor del café peruano. Trabajamos con pequeños productores de Cusco, Cajamarca y Junín, llevando a tu mesa granos seleccionados y un servicio excepcional.</p>
+          </div>
+          <div class="col-md-6">
+            <img src="imagenes/imagen-cafe-andino-img.jpg"  class="img-fluid rounded" alt="Sobre nosotros" width="450px" height="400px">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Menú -->
+    <section id="menu" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Nuestro Menú</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                  <img src="imagenes/espresso.jpg" class="card-img-top" alt="espresso">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Espresso</h5>
+                    <p class="card-text">S/. 8.00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                  <img src="imagenes/imagen_capuchino.jpg" class="card-img-top" alt="Capuchino">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Capuchino</h5>
+                    <p class="card-text">S/. 10.00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                  <img src="imagenes/tostadas_artesanales.jpg" class="card-img-top" alt="Tostadas artesanales">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Tostadas artesanales</h5>
+                    <p class="card-text">S/. 12.00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                  <img src="imagenes/cafe-latte.jpg" class="card-img-top" alt="Café latte">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Café Latte</h5>
+                    <p class="card-text">S/. 6.00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                  <img src="imagenes/imagen-frapuccino.jpg" class="card-img-top" alt="Frapuccino">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Frapuccino</h5>
+                    <p class="card-text">S/. 12.00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                  <img src="imagenes/Keke-zanahoria.jpg" class="card-img-top" alt="keke de zanahoria">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Keke de zanahoria</h5>
+                    <p class="card-text">S/. 5.00</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Galería -->
+    <section id="galeria" class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-4">Galería</h2>
+          <p class="text-center mb-4">Una pequeña galería de algunos de nuestros productos estrella:</p>
+          <div class="row g-3">
+      
+            <!-- Tarjeta 1 -->
+            <div class="col-md-4 d-flex justify-content-center">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="imagenes/yogur.jpg" class="img-fluid rounded" alt="Yogur">
+                  </div>
+                  <div class="flip-card-back">
+                    <p>Yogur natural con frutos del bosque y granola crocante. Ideal para un desayuno saludable.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Tarjeta 2 -->
+            <div class="col-md-4 d-flex justify-content-center">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="imagenes/leche-almendras.jpg" class="img-fluid rounded" alt="Leche de almendras">
+                  </div>
+                  <div class="flip-card-back">
+                    <p>Leche vegetal de almendras, suave y perfecta para acompañar tu café.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Tarjeta 3 -->
+            <div class="col-md-4 d-flex justify-content-center">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="imagenes/cafe-con-panela.jpg" class="img-fluid rounded" alt="Café con panela">
+                  </div>
+                  <div class="flip-card-back">
+                    <p>Café endulzado con panela tradicional andina, una mezcla perfecta de sabor y tradición.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Tarjeta 4 -->
+            <div class="col-md-4 d-flex justify-content-center">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="imagenes/Macchiato.jpg" class="img-fluid rounded" alt="Macchiato">
+                  </div>
+                  <div class="flip-card-back">
+                    <p>Macchiato artesanal con un toque de leche y un espresso intenso.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Tarjeta 5 -->
+            <div class="col-md-4 d-flex justify-content-center">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="imagenes/tarta-de-maracuya.jpg" class="img-fluid rounded" alt="Tarta de maracuyá">
+                  </div>
+                  <div class="flip-card-back">
+                    <p>Tarta cremosa de maracuyá, con base crocante y sabor tropical único.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Tarjeta 6 -->
+            <div class="col-md-4 d-flex justify-content-center">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="imagenes/sandwich.jpg" class="img-fluid rounded" alt="Sandwich">
+                  </div>
+                  <div class="flip-card-back">
+                    <p>Sándwich artesanal con ingredientes frescos: palta, jamón y queso andino.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </section>
+      
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="bg-dark text-white py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Contáctanos</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <p><i class="fa-solid fa-phone"></i> +51 999 888 777</p>
+            <p><i class="fa-regular fa-envelope"></i> contacto@cafeandino.pe</p>
+            <p><i class="fa-solid fa-location-dot"></i> Av. Miraflores 123, Lima</p>
+            <p><i class="fa-regular fa-clock"></i> Lunes a sábado: 8am - 8pm</p>
+          </div>
+          <div class="col-md-6">
+            <form>
+              <input type="text" class="form-control mb-2" placeholder="Nombre">
+              <input type="email" class="form-control mb-2" placeholder="Correo">
+              <textarea class="form-control mb-2" placeholder="Mensaje"></textarea>
+              <button class="btn btn-light w-100">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-white py-3 bg-secondary">
+    <p>&copy; 2025 Café Andino | Lima, Perú</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
